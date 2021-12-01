@@ -1,0 +1,284 @@
+*{
+    background-color: rgb(68, 3, 129);
+    color: white;
+    margin: 10px 0px 0px 20px;
+}
+.heading>span>i{
+    color: rgb(233, 64, 233);
+    background-color: white;
+    border: 6px solid rgb(174, 29, 241);
+    border-radius: 50%;
+}
+.clock{
+   
+    font-family:Arial, Helvetica, sans-serif;
+    /* color: white; */
+    font-size:35px;
+    font-weight: 600;
+}
+.container{
+    border: 2px solid rgb(68, 3, 129);
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(68, 3, 129);
+    padding: 20px;
+    width: 550px;
+    height: 250px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container>span{
+    background-color: white;
+    color: rgb(68, 3, 129);
+}
+.fa-sun{
+    background-color: white;
+    color: rgb(68, 3, 129);
+}
+.fa-utensils{
+    background-color: white;
+    color: rgb(68, 3, 129);
+}
+.fa-bed{
+    background-color: white;
+    color: rgb(68, 3, 129);
+}
+select{
+    background-color: white;
+    color: rgb(68, 3, 129);
+    border: 1px solid rgb(230, 226, 226);
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}
+select::-webkit-scrollbar {
+    display: none;
+}
+option{
+    background-color: white;
+    color: rgb(68, 3, 129);
+}
+
+.container1{
+    background-color: rgb(109, 60, 187);
+    color: white;
+    border: 1px solid rgb(68, 3, 129);
+    border-radius: 10px;
+    padding: 15px;
+    height: 30px;
+    width: 570px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    font-size: 25px;
+}
+.container2{
+    background-image: linear-gradient(to right,rgb(109,60,187),violet);
+    color: white;
+    border: 1px solid rgb(68, 3, 129);
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    text-align: center;
+}
+.container2:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,violet,rgb(109,60,187));
+}
+
+.container3{
+    background-color: white;
+    color: rgb(68, 3, 129);
+    border: 1px solid none;
+    border-radius: 10px;
+    height: 120px;
+    width: 550px;
+    box-shadow: 0px 10px 4px rgb(192, 162, 216);
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divbox2{
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 470px;
+    height: auto;
+    background: #4c1e61 0% 0% no-repeat padding-box;
+    border: 1px solid #4c1e61;
+    display: none;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.divbox2 p{
+    background: #4c1e61 0% 0% no-repeat padding-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.divbox3{
+    margin-left: 150px;
+    margin-top: 15px;
+    width: 299px;
+    height: 50px;
+    border: none;
+    
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+}
+#prtyime{
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 1px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+
+.container3>span{
+    background-color: white;
+    color: rgb(68, 3, 129);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.complete{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.digitalclock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(68, 3, 129);
+    margin-top: -10px;
+}
+.time{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(68, 3, 129);
+    font-size: 20px;
+}
+.time>div{
+    border: 1px solid white;
+    border-radius: 5PX;
+    background-color: rgb(222, 184, 253);
+    color: rgb(68, 3, 129);
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.time>div>span:first-child{
+    justify-content: center;
+    align-items: center;
+}
+    
+.time>div>span{
+    background-color: rgb(224, 192, 250);
+    color: rgb(68, 3, 129);
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 30px;
+    
+   
+}
+
+.time>div:last-child{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-left: -50px;
+    background-image: linear-gradient(to right,rgb(109,60,187),violet);
+}
+#clock #time div:nth-last-child(1) span{
+    background-image: linear-gradient(to right,rgb(109,60,187),violet);
+    border-radius: 5px;
+    color: white
+
+}
+
+
+.word{
+    color: rgb(117, 8, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -30px;
+}
+.words{
+    color: rgb(117, 8, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -30px;
+    background-color: white;
+}
+.container5{
+    background-color: white;
+    color: rgb(68, 3, 129);
+    border: 1px solid rgb(68, 3, 129);
+    border-radius: 5px;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.backbox{
+    z-index: -1;
+    border: 1px rgb(68, 3, 129) solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color:rgb(217, 196, 238);
+
+}
+
+
+.box div:first-child{
+    background-color: white;
+    color: rgb(68, 3, 129);
+    border: 1px solid rgb(68, 3, 129);
+    border-radius: 8px;
+}
+.box1{
+    padding: 10PX;
+    line-height: 30px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(68, 3, 129);
+}
+.box2{
+    background-color: skyblue;
+    color: rgb(14, 91, 114);
+    height: 20px;
+    width: 250px;
+    font-size: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(68, 3, 129);
+}
+
+.top{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.box2:nth-last-child(1){
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.images{
+    display: grid;
+    grid-template-columns: 3;
+}
